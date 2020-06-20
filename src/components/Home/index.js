@@ -1,11 +1,11 @@
 import React from "react";
 
-import Programme from "../Programme";
-import JoinUs from "../JoinUs";
-import Highlights from "../Highlights";
-import Study from "../Study";
-import Requirements from "../Requirements";
-import AdvicesAndHelps from "../AdvicesAndHelps";
+import Programme from "./../Programme";
+import JoinUs from "./../JoinUs";
+import Highlights from "./../Highlights";
+import Study from "./../Study";
+import Requirements from "./../Requirements";
+import AdvicesAndHelps from "./../AdvicesAndHelps";
 
 import "./style.sass";
 
