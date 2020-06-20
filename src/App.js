@@ -1,8 +1,9 @@
-import React from 'react';
+import React from "react";
 
-import { Users, About, Home, Header } from "./components"
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { Home, Header } from "./components";
+import { Users, About } from "./pages";
 
 function App() {
   return (
