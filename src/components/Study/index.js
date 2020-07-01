@@ -3,6 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import players from "../../assets/images/players.jpg";
+
 import { ReactComponent as Strips } from "../../assets/images/strips.svg";
 
 import "./style.sass";
@@ -12,9 +13,9 @@ const Study = () => {
     <section className="study-section">
       <div className="container">
         <div className="preview-block">
-          <span>The Best Course</span>
+          <span>Наши курсы и</span>
           <h2>
-            Fields of <span>Study</span>
+            Направления в <span>Обучении</span>
           </h2>
           <Strips />
         </div>

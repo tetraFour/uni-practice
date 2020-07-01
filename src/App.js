@@ -2,8 +2,9 @@ import React from "react";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-import { Home, Header } from "./components";
-import { Users, About } from "./pages";
+import { Header } from "./components";
+import { Faculties, About, Root, Faculty } from "./pages";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -14,14 +15,18 @@ function App() {
           <Route path="/about">
             <About />
           </Route>
-          <Route path="/users">
-            <Users />
+          <Route exact path="/faculties">
+            <Faculties />
+          </Route>
+          <Route path="/faculties/:id">
+            <Faculty />
           </Route>
           <Route exact path="/">
-            <Home />
+            <Root />
           </Route>
         </Switch>
       </main>
+      <Footer />
     </Router>
   );
 }

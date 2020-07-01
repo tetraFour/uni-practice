@@ -1,2 +1,14 @@
 export { default as Home } from "./Home";
 export { default as Header } from "./Header";
+export { default as AdvicesAndHelps } from "./AdvicesAndHelps";
+export { default as Footer } from "./Footer";
+export { default as Highlights } from "./Highlights";
+export { default as JoinUs } from "./JoinUs";
+export { default as Programme } from "./Programme";
+export { default as Requirements } from "./Requirements";
+export { default as Study } from "./Study";
+export { default as News } from "./News";
+export { default as OtherRoutesHome } from "./OtherRoutesHome";
+export { default as FacultySection } from "./FacultySection";
+export { default as Preloader } from "./Preloader";
+export { default as FacultiesSection } from "./FacultiesSection";
